@@ -14,7 +14,7 @@
 }
 /* banner */
 .background-img{
-   background-image:url("./images/Banner\ Image.png");
+   background-image:linear-gradient(to right, rgba(0,0,0,0.5), rgba(255,0,0,0.5)), url("./images/Banner\ Image.png");
     width: 1300px;
     height: 600px;
     /* margin: 50px 120px 140px 140px; */
@@ -29,6 +29,9 @@
     text-align: center;
     align-items: center;
     margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    
 }
 .banner-title{
@@ -38,7 +41,7 @@
     font-weight: 400;
 }
 .banner-sub-title{
-    color: rgb(208, 201, 201);
+    color: rgb(255, 255, 255);
     /* text-align: center; */
     font-size: 72px;
     font-weight: 900px;
@@ -73,7 +76,7 @@
 
 /* wellcome party  */
 .Welcome-party{
-  background-image: url("./images/Vectorrr.png");
+  background-image:linear-gradient(to left, rgba(0,0,0,0.5), rgba(255,0,0,0.5)), url("./images/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 1320px;
@@ -81,8 +84,6 @@
   margin: 0 auto;
   border-radius: 5px;
   background-blend-mode: darken;
-  
-  
 }
 .Welcome-party{
   display: flex;
@@ -107,7 +108,6 @@
   font-weight: regular;
   margin-bottom: 32px;
   max-width: 697px;
-
 }
 .welcome-party-link{
   color: white;
@@ -115,7 +115,6 @@
   font-weight: bold;
   text-decoration: none;
   margin-left: 22px;
-  
 }
 .welcome-party-img{
   margin-top: 68px;
@@ -124,3 +123,44 @@
   height: 464px;
 }
 
+/* section card */
+.card{
+  background: #FF0000;
+  background: linear-gradient(to bottom, #ffeaea, #fff);
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+span {
+  color: #FF0000;
+}
+.card-text{
+  font-size: 32px;
+  font-weight: 900px;
+  margin-bottom: 20px;
+ 
+}
+.prymary-btn{
+  background-color: #FF0000;
+  color: white;
+  /* height: 56px;
+  width: 162px; */
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.prymary-btn:hover{
+  background-color: #cc0000;
+  transition: 0.3s;
+}
