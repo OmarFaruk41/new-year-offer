@@ -70,3 +70,57 @@
   height: auto;
   margin-bottom: 120px;
 }
+
+/* wellcome party  */
+.Welcome-party{
+  background-image: url("./images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-blend-mode: darken;
+  
+  
+}
+.Welcome-party{
+  display: flex;
+  justify-content:space-between;
+  gap: 94px;
+  margin-bottom: 120px;
+}
+.welcome-party-text {
+  margin-left: 126px;
+}
+.welcome-party-title{
+ font-size: 64px;
+  font-weight: black;
+  color: white;
+  max-width: 642px;
+  margin-top: 126px;
+  margin-bottom: 24px;
+}
+.welcome-party-decription{
+  color: white;
+  font-size: 18px;
+  font-weight: regular;
+  margin-bottom: 32px;
+  max-width: 697px;
+
+}
+.welcome-party-link{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 22px;
+  
+}
+.welcome-party-img{
+  margin-top: 68px;
+  margin-right: 138px;
+  width: 319px;
+  height: 464px;
+}
+
