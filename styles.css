@@ -267,6 +267,43 @@ span {
 .red-line{
   top: -100px;
 }
-/* .funtional-img  .red-line{
-  top: -40px;
-} */
+/* gift section */
+.gift-items{
+  max-width: 1320px;
+  margin: 0 auto 120px auto;
+  
+}
+.gift-items-details{
+padding: 20px;
+margin-left: 60px;
+}
+
+.gift-items-details  .title {
+  color: #FF0000;
+  font-size: 24px;
+  font-weight: 500px;
+}
+.gift-items-details .sub-title{
+  font-size: 48px;
+  font-weight: 900;
+
+}
+.gift-items-details .descriotion{
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 896px;
+  margin-bottom: 48px;
+  
+  
+}
+.gift-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px; /* space between columns */
+  row-gap: 20px;
+  /* display: block; */
+  max-width: 1200px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto 120px auto;
+}
